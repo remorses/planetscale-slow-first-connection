@@ -1,0 +1,11 @@
+on:
+  push:
+
+jobs:
+  ci:
+    runs-on: "ubuntu-latest"
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+    steps:
+      - run: npm install
+      - run: npm main
