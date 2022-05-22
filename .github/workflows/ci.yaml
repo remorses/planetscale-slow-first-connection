@@ -6,6 +6,10 @@ jobs:
     runs-on: "ubuntu-latest"
     env:
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
+
     steps:
+      - uses: actions/checkout@master
+        with:
+          fetch-depth: 0
       - run: npm install
       - run: npm main
