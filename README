@@ -1,0 +1,8 @@
+to reproduce slow initial connection:
+
+Create `.env` file and add `DATABASE_URL` variable with a PlanetScale database url. then run
+
+```sh
+npm i
+node index.mjs
+```
