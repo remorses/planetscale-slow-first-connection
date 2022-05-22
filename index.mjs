@@ -24,3 +24,5 @@ for (let j = 0; j < 5; j++) {
     )
     console.timeEnd('query')
 }
+
+process.exit(0)
