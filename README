@@ -6,3 +6,11 @@ Create `.env` file and add `DATABASE_URL` variable with a PlanetScale database u
 npm i
 node index.mjs
 ```
+
+<!--
+
+https://vercel.com/gang/planetscale-slow-first-connection/GccgEa3kUAmsoGcaaSssZRLUYkFK/functions
+
+https://planetscale-slow-first-connection.vercel.app/api/hello
+
+-->
